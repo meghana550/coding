@@ -1,0 +1,25 @@
+#Reverse of a Number
+
+n=input()
+print(n[::-1])
+
+i/p:121
+o/p:121
+
+----------------------
+----------------------
+
+#palindrome of a number
+
+n=input()
+
+if(n[::]==n[::-1]):
+
+    print("palindrome number")
+
+else:
+
+    print("not a palindrome number")
+
+i/p:121
+o/p:palindrome number
