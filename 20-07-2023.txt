@@ -1,0 +1,26 @@
+#printing a single digit value
+
+n=[2,3,3,4,4]
+
+num=[ ]
+
+for i in n:
+
+    if i not in num:
+
+        num.append(i)
+
+    else:
+
+        num.remove(i)
+
+print(num)
+
+Output=[2]
+---------------------------------------
+#To remove duplicates values in set
+
+s=['s','a','p','s','p']
+print(set(s))
+
+Output={'a','s','p'}
