@@ -1,0 +1,14 @@
+w=540
+
+v=200
+
+TW=((4*v)-w)//2
+
+FW=v-TW
+
+print(TW)
+
+print(FW)
+
+Output:130
+       70
