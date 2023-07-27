@@ -21,6 +21,6 @@ for i in s2:
     res.append(int(i))
 
 print(res)
-
-
+--------------------
+--------------------
 Output:[1,2,4]
