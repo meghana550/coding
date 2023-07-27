@@ -1,0 +1,19 @@
+#converting double digits into single digits
+
+nums=[9,81,72]
+
+s=""
+
+for i in nums:
+
+    s+=str(i)
+
+res=[]
+
+for i in s:
+
+    res.append(int(i))
+
+print(res)
+---------------------
+Output=[9,8,1,7,2]
